@@ -192,3 +192,41 @@ export const WALLET_STATS = {
     growth: 12.5,
 };
 
+
+export const DASHBOARD_STATS = {
+    employees: 78,
+    hirings: 56,
+    projects: 203,
+};
+
+export const PROFILE_CARD_DATA = {
+    name: "Lora Piterson",
+    role: "UX/UI Designer",
+    rate: 1200,
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80",
+};
+
+export const WORK_TIME_DATA = {
+    totalHours: 6.1,
+    remaining: "5h 23m",
+    chartData: [
+        { day: 'S', hours: 2 },
+        { day: 'M', hours: 4 },
+        { day: 'T', hours: 3 },
+        { day: 'W', hours: 7 },
+        { day: 'T', hours: 5 },
+        { day: 'F', hours: 6 }, // Highlight
+        { day: 'S', hours: 2 },
+    ]
+};
+
+export const ONBOARDING_DATA = {
+    progress: 18,
+    tasks: [
+        { id: 1, title: 'Interview', time: 'Sep 13, 08:30', completed: true, icon: 'Monitor' },
+        { id: 2, title: 'Team Meeting', time: 'Sep 13, 10:30', completed: true, icon: 'Zap' },
+        { id: 3, title: 'Project Update', time: 'Sep 13, 13:00', completed: false, icon: 'MessageSquare' },
+        { id: 4, title: 'Discuss Q3 Goals', time: 'Sep 13, 14:45', completed: false, icon: 'Ruler' },
+        { id: 5, title: 'HR Policy Review', time: 'Sep 13, 16:30', completed: false, icon: 'Link' },
+    ]
+};
